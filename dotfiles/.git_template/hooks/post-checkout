@@ -1,0 +1,3 @@
+#!/bin/sh
+
+echo "To automate a process at this stage, edit /dotfiles/.git_template/hooks/post-checkout"
