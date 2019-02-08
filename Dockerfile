@@ -1,7 +1,12 @@
 FROM amazonlinux:2
 
-COPY dotfiles/.* ~/
-
 RUN yum update -y
-RUN yum install -y git
 RUN amazon-linux-extras install docker
+RUN amazon-linux-extras install ecs
+RUN amazon-linux-extras install testing
+RUN amazon-linux-extras install vim
+RUN yum install -y git
+RUN yum install -y zsh
+
+WORKDIR /root/
+COPY dotfiles/ ./

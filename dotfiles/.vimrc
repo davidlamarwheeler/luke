@@ -1,3 +1,6 @@
+set encoding=utf-8
+scriptencoding utf-8
+
 ""
 " from thoughtbot's laptop script
 "
@@ -53,11 +56,7 @@ set tabstop=2
 set shiftwidth=2
 set shiftround
 set expandtab
-
-" Display extra whitespace
-set list listchars=tab:»·,trail:·,nbsp:·
-
-" Use one space, not two, after punctuation.
+set listchars=trail:·,eol:¶,tab:»·
 set nojoinspaces
 
 " Use The Silver Searcher https://github.com/ggreer/the_silver_searcher
