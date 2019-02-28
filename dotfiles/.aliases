@@ -1,5 +1,5 @@
-alias ll="ls -al"
-alias ln="ln -v"
+alias vli="LC_COLLATE=C ls -AlFhp --color"
+alias li="LC_COLLATE=C ls -lFhp --color --group-directories-first"
 alias mkdir="mkdir -p"
 alias e="$EDITOR"
 alias v="$VISUAL"
